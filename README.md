@@ -23,13 +23,7 @@ There are 6 vulnerabilities and 3 students. The vulnerabilities are grouped into
 **Attack**: run 2 attacks on that contract with automated tests to prove the bug works.
 **Report**: write up the bug: what it is, how it was attacked, how much damage it does, and how to fix it.
 
-Student	Pair 1: Reentrancy, Access Control	
-Student Pair 2: tx.origin, Signature Replay	
-Student Pair 3: Front-running, Denial of Service
-
-Student 1	Build	Attack	Report
-Student 2	Attack	Report	Build
-Student 3	Report	Build	Attack
+<img width="986" height="381" alt="image" src="https://github.com/user-attachments/assets/f2b82216-72d9-4aa5-ab85-7d77607215bb" />
 
 **Team organization:** 
 Each student is responsible for developing, testing, and documenting their assigned vulnerabilities.
