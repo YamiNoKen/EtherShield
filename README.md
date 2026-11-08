@@ -2,7 +2,7 @@
 
 ## 1. Program Overview
 
-**EtherShield** is a practical blockchain cybersecurity laboratory spanning **6 to 8 weeks**, designed for teams of **3 to 4 students**.
+**EtherShield** is a practical blockchain cybersecurity laboratory .
 
 The program focuses on developing, auditing, safely exploiting, and remediating Solidity smart contracts on a local Ethereum network using simulated funds.
 
@@ -13,21 +13,29 @@ The program focuses on developing, auditing, safely exploiting, and remediating 
 - Implement security fixes and mitigation techniques.
 - Document vulnerabilities, attacks, and remediation strategies.
 
----
+------------------------------------------------------------------------------------------------------------
 
 ## 2. Team Workload & Task Distribution
 
-The team distributes responsibilities across the six core vulnerabilities.
+There are 6 vulnerabilities and 3 students. The vulnerabilities are grouped into 3 pairs, and each student rotates through three tasks:
 
-| Team Member | Assigned Vulnerabilities | Deliverables |
-|---|---|---|
-| Student 1 | Reentrancy & Access Control | 2 vulnerable contracts, 4 exploit attacks (2 per vulnerability), 2 report sections |
-| Student 2 | tx.origin & Signature Replay | 2 vulnerable contracts, 4 exploit attacks (2 per vulnerability), 2 report sections |
-| Student 3 | Front-running & Denial of Service | 2 vulnerable contracts, 4 exploit attacks (2 per vulnerability), 2 report sections |
+**Build**: write the vulnerable contract that contains the bug.
+**Attack**: run 2 attacks on that contract with automated tests to prove the bug works.
+**Report**: write up the bug: what it is, how it was attacked, how much damage it does, and how to fix it.
 
-**Team organization:** Each student is responsible for developing, testing, and documenting their assigned vulnerabilities.
+Student	Pair 1: Reentrancy, Access Control	
+Student Pair 2: tx.origin, Signature Replay	
+Student Pair 3: Front-running, Denial of Service
 
----
+Student 1	Build	Attack	Report
+Student 2	Attack	Report	Build
+Student 3	Report	Build	Attack
+
+**Team organization:** 
+Each student is responsible for developing, testing, and documenting their assigned vulnerabilities.
+Each pair delivers 2 vulnerable contracts, 4 attacks (2 per bug), and 2 report sections.
+
+--------------------------------------------------------------------------------------------------------------------------
 
 ## 3. The 6 Core Vulnerabilities & Attack Scenarios
 
@@ -139,7 +147,7 @@ Flawed logic or failing external calls can block essential operations for everyo
 
 ## 5. Expected Deliverables
 
-At the end of the project, the team should provide:
+At the end of the project, we should provide:
 
 1. Six vulnerable Solidity smart contracts.
 2. Twelve exploit scenarios (two per vulnerability).
@@ -149,16 +157,3 @@ At the end of the project, the team should provide:
 6. A final project demonstration.
 
 ---
-
-## 6. Project Scope & Safety
-
-All vulnerability demonstrations and exploit tests must be conducted in a controlled local Ethereum environment using simulated funds.
-
-The objective is to understand smart contract security weaknesses and develop effective defensive solutions.
-
----
-
-**Project Name:** EtherShield  
-**Domain:** Blockchain & Smart Contract Cybersecurity  
-**Duration:** 6–8 Weeks  
-**Team Size:** 3–4 Students
